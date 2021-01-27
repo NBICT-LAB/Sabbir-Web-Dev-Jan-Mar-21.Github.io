@@ -1,17 +1,40 @@
 *{
-  padding: 10px;
-  margin: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 
-#heading {
-  background-color: aqua;
-  border: 1px solid black;
-  text-align: center;
 }
+.navbar{
+  background: crimson;
+  position: fixed;
+  width: 100%;
+  font-family: ubundu,sans-serif;
+  padding: 15px 0;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.max-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 80px;
+}
+.navbar .logo a{
+color: #fff;
+font-size: 35px;
+font-weight: 600;
+}
+.navbar .menu li{
+  display: inline-block;
+  list-style: none;
 
-#paragraph {
-  background-color: burlywood;
-  border: 1px solid black;
-  text-align: justify;
+}
+.navbar .menu li a{
+  color:#fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
 }
