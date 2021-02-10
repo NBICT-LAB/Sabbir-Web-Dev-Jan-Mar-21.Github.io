@@ -1,5 +1,9 @@
-let js = "amazing";
-if (js === "amazing") alert("javascript is awesome");
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if(this.scrollY>20){
+            $('.navbar').addClass("sticky");
+        }else{
 
-console.log(2+4+6+8-13);
-console.log("I am abu shaid");
+        }
+    })
+})
