@@ -7,3 +7,10 @@ $(document).ready(function(){
         }
     })
 })
+
+const firstName = "Abu shaid";
+const lastName = "Sabbir";
+
+const result =firstName + lastName;
+
+console.log(result);
