@@ -14,3 +14,6 @@ const lastName = "Sabbir";
 const result =firstName + lastName;
 
 console.log(result);
+const practice = 'javascript';
+
+console.log(practice);
