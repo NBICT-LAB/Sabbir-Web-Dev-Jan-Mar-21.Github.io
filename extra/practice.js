@@ -200,3 +200,4 @@ if(condition2){
 }else{
     console.log(`${country}es population is below average.`);
 }
+
