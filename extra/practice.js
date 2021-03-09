@@ -140,7 +140,7 @@ let markHigherBMI = MarkBMI > JohnBMI;
 console.log(MarkBMI , JohnBMI , markHigherBMI);
 
 */
-
+/*
 
 const country = 'Bangladesh';
 const continent = 'Asia';
@@ -201,3 +201,29 @@ if(condition2){
     console.log(`${country}es population is below average.`);
 }
 
+*/
+
+
+
+let massMark = 95;
+let massJohn = 85;
+let heightMark = 1.88;
+let heightJohn = 1.76;
+ 
+let MarkBMI = massMark / ( heightMark * heightMark);
+let JohnBMI = massJohn / (heightJohn * heightJohn);
+
+console.log( MarkBMI , JohnBMI);
+
+let markHigherBMI = MarkBMI > JohnBMI ;
+
+console.log(markHigherBMI);
+
+if(markHigherBMI){
+    console.log(`Mark's BMI is higher than john's!`);
+}else{
+    console.log(`John's BMI is higher than Mark's!` );
+}
+
+
+console.log(`Mark's BMI ${MarkBMI} is lower than John's ${JohnBMI}`);
